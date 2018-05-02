@@ -2,6 +2,8 @@ require_relative 'spec_helper'
 
 describe Student do
 
+  attr_accessor :id, :name, :grade
+
   before do
     Student.create_table
   end
