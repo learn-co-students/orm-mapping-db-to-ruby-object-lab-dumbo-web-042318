@@ -142,8 +142,8 @@ describe Student do
         jess.grade = 10
         jess.save
 
-        first_X_students = Student.first_X_students_in_grade_10(2)
-        expect(first_X_students.size).to eq(2)
+        first_X_students = Student.first_X_students_in_grade_10(3)
+        expect(first_X_students.size).to eq(3)
       end
     end
 
